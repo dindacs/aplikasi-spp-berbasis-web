@@ -1,6 +1,6 @@
 <?php
 
-$con = new mysqli('localhost', 'root', 'dinda1313', 'db_spp');
+$con = new mysqli('localhost', 'root', '', 'db_spp');
 
 if (mysqli_connect_errno()) {
   echo "koneksi gagal" . mysqli_connect_errno();
